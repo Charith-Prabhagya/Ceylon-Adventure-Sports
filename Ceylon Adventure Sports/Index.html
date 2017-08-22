@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Home</title>
+
+<link rel="stylesheet" type="text/css" href="CSS/style1.css" />
+
+<script type="text/javascript">
+            var picPaths = ['s1.jpg','s2.jpg','s3.jpg','s4.jpg','s5.jpg'];
+            var curPic = -1;
+            //preload the images for smooth animation
+            var imgO = new Array();
+            for(i=0; i < picPaths.length; i++) {
+                imgO[i] = new Image();
+                imgO[i].src = picPaths[i];
+            }
+
+            function swapImage() {
+                curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+                imgCont.src = imgO[curPic].src;
+                setTimeout(swapImage,2000);
+            }
+
+            window.onload=function() {
+                imgCont = document.getElementById('imgBanner');
+                swapImage();
+            }
+        </script>
+
+</head>
+
+<body>
+<div class="heading">
+<table width="1001">
+<tr>
+<td width="310">
+<img id="logo" src="Imags/logo.jpg" />
+</td>
+<td width="679">
+<h1 id="Topic">Ceylon Adventure Sports</h1>
+</td>
+</tr>
+</table>
+</div>
+
+
+
+
+
+
+<div>
+<table width="843" border="0" cellpadding="15" cellspacing="15" class="button">
+<tr align="center">
+<td width="120"><a class="active"   href="Index.html">Home</a></td>
+<td  width="120"><a href="About_Us.html">About Us</a></td>
+<td width="121"><a href="What_We_Do.html">What We Do</a></td>
+<td width="121"><a href="Registration.html">Registration</a></td>
+<td width="121"><a href="Contact_Us.html">Contact Us</a></td>
+
+</tr>
+</table>
+</div>
+
+<div><center>
+ <img id="imgBanner" src="" alt="" width="1150" height="470"  />
+ </center>
+</div><br />
+
+<marquee id="adventure" direction="right">www.ceylonadventuresports.com</marquee>
+
+<div class="Right_Column">
+<h3>New Excursions</h3>
+<ul>
+<li>Horton Plains Trekking Excursion in Sri Lanka
+</li><br />
+<li>Adams Peak Trekking
+</li><br />
+<li>Luxury Sailing Tours in Passikudda and Trincomalee
+</li><br />
+<li>Allagala Mountain Trekking Excursion in Kandy
+</li><br />
+<li>Whale Watching in Trincomalee Sri Lanka (May-Oct)
+</li><br />
+<li>Habarana Village Tour
+</li><br />
+<li>Kithulgala Adventure Activities
+</li><br />
+<li>Bentota River Challenge 
+</li><br />
+<li>Negombo Fishing Challenge 
+</li><br />
+<li>A safari in dawalawe national park
+</li><br />
+<li>Trekking in Sinharaja rain forest 
+</li><br />
+</ul>
+</div><br />
+
+<div class="Left_Column">
+<table>
+<tr>
+<td>
+<img id=wl src="Imags/wl.jpg" />
+</td>
+<td>
+<h2 style="color:#3C3"><center>Welcome To Sri Lanka!</center></h2>
+<p style="font-size:18px">we welcome you to our beautiful island, Sri Lanka. The island’s proud history of over 2500 years and breathtaking diversity of scenery will capture your heart and soul like no other destination.<br /><br />
+
+May the time you spend in our island be filled with exciting experiences memories of which you will carry long after you leave our shores<br />
+<br />
+
+This island, only 270 miles long by 140 miles wide was long ago subject to major geological upheaval producing the hills, mountains and rivers that are virtually tailor made for adventure sports activities, couple this with the reefs and wrecks of the Indian Ocean and you have, truly, an adventure sports paradise.
+</p>
+</td>
+</tr>
+</table>
+</div>
+
+<div class="ad_sports">
+
+<table width="100%" border="0" align="center">
+<tr>
+<td colspan="2">
+<h2 style="color:#3287f2">Adventure Sports</h2>
+</td>
+</tr>
+  <tr>
+    <td><img class="sports" src="Imags/ad_sports/1.jpg" />
+<h3 style="color:#ff3333">Diving</h3>
+<p align="justify">Completely surrounded by the warm water of the Indian ocean, Sri Lanka offers wonderful opportunities for underwater exploration whatever your pleasure; from actively scuba diving deep in the in the ocean accompanied by schools of tropical fish to simply admiring the scene languidly from the surface through a mask and snorkel. A multitude of exotic fish, kaleidoscopic coral reefs, mystical underwater landscapes and historic ship wrecks can be explored at several easy to get to locations off the south and west coasts of Sri Lanka.</p></td>
+    <td><img class="sports" src="Imags/ad_sports/2.jpg" />
+<h3 style="color:#ff3333">Trekking and Hiking</h3>
+<p align="justify">With multitude of roads winding through expanding mountains, lush green forests, paddy fields, parks and sleepy villages, Sri Lanka offers a plethora of opportunities to the Keen hikers and trekkers. The highlands of Sri Lanka with virgin rain forests, sacred mountains, lush tea gardens and plains filled with rare birds and insects coupled with mild temperatures and welcoming smiles of the villagers provide the ideal setting to an unforgettable walking experience.</p></td>
+  </tr>
+  <tr>
+<td>
+<img class="sports" src="Imags/ad_sports/3.jpg" />
+<h3 style="color:#ff3333">Rock Climbing</h3>
+<p align="justify">Experience the thrills of crumbling rocks beneath the feet, head spinning heights and the earth expanding beneath conquering the mountains of Sri Lanka. The ranges of mountains standing guard around the highlands of Sri Lanka including the Knuckles range, Ella range, Habarana, Sigiriya, Polonnaruwa, Horton Plains and Buttala provide challenging climbs to armature as well as experienced climbers. </p>
+</td>
+<td>
+<img class="sports" src="Imags/ad_sports/4.png" />
+<h3 style="color:#ff3333">Surfing</h3>
+<p align="justify">With multitude of roads winding through expanding mountains, lush green forests, paddy fields, parks and sleepy villages, Sri Lanka offers a plethora of opportunities to the Keen hikers and trekkers. The highlands of Sri Lanka with virgin rain forests, sacred mountains, lush tea gardens and plains filled with rare birds and insects coupled with mild temperatures and welcoming smiles of the villagers provide the ideal setting to an unforgettable walking experience.</p>
+</td>
+</tr>
+<tr>
+<td>
+<img class="sports" src="Imags/ad_sports/5.jpg" />
+<h3 style="color:#ff3333">Hot Air Ballooning</h3>
+<p align="justify">Roam the skies of Sri Lanka enjoying the signs and sites from the heavens above. Floating at heights of 500 to 2000 feet on average,effortlessly drift over the treetops, wildlife, lakes & rivers, cultural sites, local urban homesteads & landmarks like Sigiriya Rock. The sunrise rides are offered at day break to enhance the experience by accompanying the sights and sounds with magical experience of dawn.</p>
+</td>
+<td>
+<img class="sports" src="Imags/ad_sports/6.jpg" />
+<h3 style="color:#ff3333">rafting</h3>
+<p align="justify">Rafting, in high adrenaline white water trip on the Kelani River is suitable for first time ‘go for it ‘rafters and experts alike. During the run you will experience the thrill of shooting rapids and the euphoria of making it through. The source of the river’s clear water is high up in the heart of the peak wilderness reserve and tumbles though a rocky gorge just above Kitulgala town.</p>
+</td>
+</tr>
+<tr>
+<td>
+<img class="sports" src="Imags/ad_sports/7.jpg" />
+<h3 style="color:#ff3333">whale and dolping watching</h3>
+<p align="justify">The ocean around Sri Lanka is the home to the gentle giants and the performers of the ocean. Dolphins and whales parade their presence at various locations around Sri Lanka during the months of December, January, February, March and April. Being situated on and around the migrating routes of whales and dolphins, Sri Lanka is in a vantage point to observe the migration of 26 species of cetaceans including blue whales, sperm whales, pilot whales, fin whales and a large variety of dolphins.</p>
+</td>
+<td>
+<img class="sports" src="Imags/ad_sports/8.jpg" />
+<h3 style="color:#ff3333">Cycling</h3>
+<p align="justify">Cycling is one of the best ways to explore Sri Lanka. Riding along tea plantation tracks and jungle trails and the islands wonderful sunny coast line, you will experience first-hand this varied and colorful country. You will have an opportunity to mix with local people and see the real country. Our bike trails are fantastic off road adventures, combining places of interest with natural wonders off the beaten track. 
+</p>
+</td>
+</tr>
+</table>
+
+
+
+</div>
+
+<div class="footer">
+<p >
+We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures that we can have if only we seek them with our eyes open.
+~ Jawaharlal Nehru</p><br />
+ <a href="https://www.twitter.com/" style="position:absolute;"><img src="a3.png" width="50px" height="50px"/></a>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ 
+  <a href="https://www.facebook.com"><img src="a8.png" width="50px" height="50px" /></a> &nbsp;
+ 
+		<a href="https://www.linkedin.com"><img src="a6.png" width="50px" height="50px"/></a> &nbsp;
+  <a href="https://www.instagram.com/"><img src="a7.png" width="50px" height="50px"/></a> &nbsp;
+		<a href="https://www.youtube.com"><img src="a2.png" width="50px" height="50px"/></a> &nbsp;
+		<a href="https://www.skype.com"><img src="a5.png" width="50px" height="50px"/></a>  
+</div>
+</br> </br> </br> </br> 
+<p class="powered">www.ceylonadventuresports.com | (Powered by Samitha,Charith,Sameera)</p>
+</body>
+</html>
